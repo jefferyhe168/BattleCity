@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: brown;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ce1002.finalproject.s107502019.controllers.GameOverController">
+   <children>
+      <Label alignment="CENTER" layoutX="139.0" layoutY="81.0" prefHeight="433.0" prefWidth="522.0" text="GAME&#10;OVER" textAlignment="CENTER" textFill="#13ff12">
+         <font>
+            <Font size="160.0" />
+         </font>
+      </Label>
+      <Button fx:id="_return" layoutX="648.0" layoutY="498.0" mnemonicParsing="false" onAction="#onBackPressed" prefHeight="53.0" prefWidth="126.0" text="返回">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>
